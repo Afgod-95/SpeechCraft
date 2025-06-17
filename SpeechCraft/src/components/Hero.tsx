@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="max-w-4xl mx-auto pb-5"
+          className="max-w-4xl mx-auto"
         >
           <motion.div variants={itemVariants} className="mb-8 pt-6">
             <div className="inline-flex items-center bg-white/60 backdrop-blur-sm rounded-full px-6 py-2 mb-6 border border-white/20">
